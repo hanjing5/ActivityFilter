@@ -1,6 +1,4 @@
 ActivityFilter::Application.routes.draw do
-  get "text/index"
-  get "text/show"
   post "text" => 'text#receiver'
 
   resources :text do
