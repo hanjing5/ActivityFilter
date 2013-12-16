@@ -4,4 +4,8 @@ class TextController < ApplicationController
 
   def show
   end
+
+  def receiver
+  	
+  end
 end
